@@ -9,13 +9,13 @@ export default function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/quizzers/">
+        <Route exact path="/">
           <Main />
         </Route>
-        <Route exact path="/quizzers/:id">
+        <Route exact path="/:id">
           <Quiz />
         </Route>
-        <Route path="/quizzers/admin/:id">
+        <Route path="/admin/:id">
           <Admin />
         </Route>
       </Switch>
