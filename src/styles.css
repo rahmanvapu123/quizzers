@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.qoute {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 40px;
+}
+.qoute h2 {
+  font-family: Poppins;
+  font-weight: bold;
+  color: #008000;
+}
+.main_header {
+  width: 100vw;
+  height: 350px;
+  background-color: #008000;
+  border-bottom-right-radius: 990px;
+  border-bottom-left-radius: 990px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main_header h3 {
+  color: white;
+  font-size: 30px;
+  font-family: Poppins;
+}
+.register_box {
+  margin: 10px;
+  margin-top: 40px;
+  border: 2px solid grey;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.register_box h3 {
+  font-size: 25px;
+  font-family: Poppins;
+  color: black;
+}
+.textinput {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.submit {
+  padding: 10px;
+  background-color: #008000;
+  font-family: Poppins;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 99px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+}
+.prizes {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid grey;
+  margin: 10px;
+  border-radius: 5px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.prizes h2 {
+  font-size: 25px;
+  font-family: Poppins;
+  font-weight: bold;
+}
+.prizesbox h3 {
+  font-size: 23px;
+  font-family: Roboto;
+  padding: 10px;
+}
+.prizesbox p {
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: Roboto;
+}
+.footer {
+  background-color: #008000;
+  color: white;
+  font-size: 13px;
+  padding: 20px;
+  font-family: Roboto;
+}
+.bodyquiz {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding-bottom: 10px;
+  background-color: wheat;
+}
+.questionbox {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.bodyquiz .addtopspace {
+  margin-top: 20px;
+}
+.questionbox h3 {
+  font-size: 20px;
+  color: black;
+  padding-bottom: 10px;
+  font-family: Roboto;
+}
+.gridlayout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.gridlayout h1 {
+  padding: 10px;
+  font-size: 50px;
+  font-family: Poppins;
+}
+.quiz_submit {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #008000;
+  font-family: Poppins;
+  color: white;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  margin-top: 15px;
+}
+.share {
+  position: absolute;
+  bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 20px;
+  border-radius: 99px;
+  background-color: #008000;
+  padding: 16px;
+}
+.clock {
+  font-family: Roboto;
+  color: white;
+}
+.clock_box {
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #008000;
+}
+.clock_box h2 {
+  color: white;
+  font-family: Roboto;
+}
+.quizes {
+  margin: 10px;
+}
+.quizes h3 {
+  font-family: Roboto;
+  font-size: 30px;
+  margin: 6px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.quizes .box {
+  border-radius: 6px;
+  height: 250px;
+  border: 2px solid grey;
+  overflow-y: scroll;
+}
+.quizes .list {
+  border-bottom: 2px solid grey;
+  padding: 10px;
+}
+.quizes h4 {
+  font-family: Roboto;
+  font-size: 23px;
+}
+.header {
+  height: 130px;
+  background-color: #008000;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.header h3 {
+  margin-top: 10px;
+  font-family: Roboto;
+  font-size: 30px;
+  color: rgb(231, 231, 231);
+}
+.questionbox1 {
+  margin-left: 10px;
+  margin-top: -45px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.questionbox1 h3 {
+  font-size: 20px;
+  color: black;
+  padding-bottom: 10px;
+  font-family: Roboto;
+}
+.table {
+  padding: 10px;
+  margin-top: 10px;
+}
+.table h3 {
+  margin-bottom: 5px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+}
+.adminheader {
+  background-color: #008000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adminheader h3 {
+  color: white;
+  font-size: 30px;
+  font-family: Poppins;
+  padding: 20px;
+}
+.link {
+  margin: 10px;
+}
+.link h3 {
+  font-family: Roboto;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.link .box {
+  display: flex;
+  flex-direction: row;
+}
+.link .box .box_link {
+  background-color: #008000;
+  border-radius: 5px;
+  width: 80%;
+  overflow-x: scroll;
+}
+.link .box h5 {
+  font-family: Roboto;
+  color: white;
+  font-size: 15px;
+  padding: 15px;
+}
+.link .box .share_link {
+  background-color: #008000;
+  padding: 13px;
+  border-radius: 99px;
+  margin-left: 10px;
+}
+.bodyquiz1 {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding-bottom: 10px;
+  background-color: wheat;
+}
+.client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.client h2 {
+  font-family: Poppins;
+  font-size: 20px;
+  color: grey;
+}
+.back {
+  background-color: #008000;
+  padding-left: 10px;
+}
+.loading{
+position:absolute;
+display:flex;
+top:0;
+bottom:0;
+left:0;
+right:0;
+align-items:center;
+justify-content:center;
+background-color:white;
+border-radius:5px;
+}
