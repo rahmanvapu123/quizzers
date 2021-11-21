@@ -7,7 +7,7 @@ import React, { useEffect, useState } from "react";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename='/quizzers' >
       <Switch>
         <Route exact path="/">
           <Main />
